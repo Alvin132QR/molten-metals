@@ -79,7 +79,7 @@ public class MoltenMetalFluid extends ModFlowingFluid {
         BlockPos blockPos = pos.above();
         if (level.getBlockState(blockPos).isAir() && !level.getBlockState(blockPos).isSolidRender(level, blockPos)) {
             boolean raining = level.isRainingAt(pos.above());
-            if (random.nextInt(raining ? 50 : 100) == 0) {
+            if (random.nextInt(100) == 0) {
                 double d = (double)pos.getX() + random.nextDouble();
                 double e = (double)pos.getY() + 1.0D;
                 double f = (double)pos.getZ() + random.nextDouble();
