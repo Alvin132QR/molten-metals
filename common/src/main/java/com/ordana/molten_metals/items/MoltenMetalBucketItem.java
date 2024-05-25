@@ -1,5 +1,6 @@
 package com.ordana.molten_metals.items;
 
+import net.mehvahdjukaar.moonlight.api.item.ModBucketItem;
 import net.mehvahdjukaar.moonlight.api.platform.PlatHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -13,7 +14,7 @@ import net.minecraft.world.level.material.Fluid;
 
 import java.lang.reflect.Field;
 
-public class MoltenMetalBucketItem extends BucketItem {
+public class MoltenMetalBucketItem extends ModBucketItem {
 
     private static final Field CONTENT = PlatHelper.findField(BucketItem.class, "content");
 

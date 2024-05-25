@@ -32,6 +32,6 @@ Melt down your metals and cast some ingots!
 [[dependencies.molten_metals]]
     modId="moonlight"
     mandatory=true
-    versionRange="[1.20-2.8.51,]"
+    versionRange="[1.20-2.11.29,]"
     ordering="AFTER"
     side="BOTH"
