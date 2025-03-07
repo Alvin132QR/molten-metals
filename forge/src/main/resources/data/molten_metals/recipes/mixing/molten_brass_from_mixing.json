@@ -4,13 +4,18 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_brass"
+      "fluid": "molten_metals:molten_zinc",
+      "amount": 144
+    },
+    {
+      "fluid": "molten_metals:molten_copper",
+      "amount": 144
     }
   ],
   "results": [
     {
       "fluid": "molten_metals:molten_brass",
-      "amount": 144
+      "amount": 288
     }
   ],
   "heatRequirement": "heated"
